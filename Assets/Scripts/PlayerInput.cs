@@ -18,6 +18,7 @@ public class PlayerInput : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if (PlayerDeath.deathIsAnimating) return;
         rb.MovePosition(rb.position + moveVector * moveSpeed * Time.fixedDeltaTime);
     }
 }

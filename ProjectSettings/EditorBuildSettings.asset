@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Paranoia Return Scene.unity
     guid: 1cb9af380e419024d8dd4b993ed973c0
+  - enabled: 1
+    path: Assets/Scenes/Paranoia Scene.unity
+    guid: 6d91e3d120ca967428495cd951bd5fe9
   m_configObjects: {}

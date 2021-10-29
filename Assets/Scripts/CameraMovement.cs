@@ -8,6 +8,7 @@ public class CameraMovement : MonoBehaviour
     public float cameraSpeed;
     void Update()
     {
+        if (PlayerDeath.deathIsAnimating) return;
         transform.Translate(Vector3.right * cameraSpeed * Time.deltaTime);
     }
 }
