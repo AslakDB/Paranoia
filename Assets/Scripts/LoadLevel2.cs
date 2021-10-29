@@ -9,6 +9,6 @@ public class LoadLevel2 : MonoBehaviour
     // Start is called before the first frame update
     public void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene("Paranoia Return Scene");
+        SceneManager.LoadScene("BecomeGhost");
     }
 }

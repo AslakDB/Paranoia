@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Starting cutscene.unity
+    guid: 198d138ccd2b9af4c816a22aef26cdde
   - enabled: 1
-    path: Assets/Scenes/Game Over Scene.unity
-    guid: b7803ce8070c3b943b5e6c11575cfe43
+    path: Assets/Scenes/Paranoia Scene.unity
+    guid: 6d91e3d120ca967428495cd951bd5fe9
+  - enabled: 1
+    path: Assets/Scenes/BecomeGhost.unity
+    guid: 88856af7699ecfc4e9b2f7e7fafa43e1
   - enabled: 1
     path: Assets/Scenes/Paranoia Return Scene.unity
     guid: 1cb9af380e419024d8dd4b993ed973c0
   - enabled: 1
-    path: Assets/Scenes/Paranoia Scene.unity
-    guid: 6d91e3d120ca967428495cd951bd5fe9
+    path: Assets/Scenes/Game Over Scene.unity
+    guid: b7803ce8070c3b943b5e6c11575cfe43
   m_configObjects: {}

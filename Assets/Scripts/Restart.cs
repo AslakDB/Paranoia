@@ -7,7 +7,7 @@ public class Restart : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Paranoia Scene");
+        SceneManager.LoadScene("Starting cutscene");
     }
     
   
