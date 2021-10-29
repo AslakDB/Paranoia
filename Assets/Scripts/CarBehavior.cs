@@ -12,6 +12,8 @@ public class CarBehavior : MonoBehaviour
    
    public void Update()
    {
+      if (PlayerDeath.deathIsAnimating) return;
+      
       transform.position = new Vector2(transform.position.x, _player.position.y * 0.85f);
       
       transform.Translate(Vector3.right * speed * Time.deltaTime);
