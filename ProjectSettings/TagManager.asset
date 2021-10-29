@@ -8,6 +8,9 @@ TagManager:
   - Car
   - Damage
   - Death
+  - Song1
+  - Song2
+  - Song3
   layers:
   - Default
   - TransparentFX
